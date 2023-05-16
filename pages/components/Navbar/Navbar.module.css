@@ -1,0 +1,70 @@
+
+    /* .navbar-list {
+    position:absolute;
+    left: 600px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  .navbar_list li {
+    margin: 0 10px;
+    margin-top: 10px;
+  }
+  
+  .navbar_list li a {
+    color: #004346;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  
+    width: 51px;
+    height: 21px;
+    /* font-family: 'Aspekta'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #004346;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .navbar_list li a:hover {
+    color: #8cea6f;
+  }
+  
+  
+  .get_in_touch_button {
+      position:relative;
+      left: 300px;
+      bottom: 7.5px;
+      width: 150px;
+      background-color: #ECF2EA;
+      border: none;
+      color: #004346;
+      font-weight: 500;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+      border-left: 1px solid #333;
+      border-right: 1px solid #333;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+  } 
+  
+  .get_in_touch_button:hover {
+    background-color: #004346;
+    color: #B2ECA1;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  }
+  
+  .login {
+    position: relative;
+    left: 250px;
+  }
+  
+    
